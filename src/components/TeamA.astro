@@ -409,6 +409,10 @@
 </script>
 
 <style>
+	body {
+		background-color: rgb(9, 255, 0);
+		color: white;
+	}
 	.container {
 		display: flex;
 		justify-content: center;
@@ -482,9 +486,9 @@
 		font-size: 48px;
 	}
 
-	nav {
-		font-size: 28px;
-	}
+    nav {
+        font-size: 20px;
+    }
 
 	ul {
 		display: flex;
@@ -496,10 +500,18 @@
 		list-style: none;
 	}
 
-	ul li a {
-		color: white;
-		text-decoration: none;
-	}
+    ul li a {
+        color: rgb(34, 34, 34);
+        text-decoration: none;
+        transition: all 0.5ms;
+        background-color: white;
+        border-radius: 20px;
+        padding: 10px 40px;
+    }
+
+    ul li a:hover {
+        background-color: rgb(206, 206, 206);
+    }
 
     .match {
         display: flex;
